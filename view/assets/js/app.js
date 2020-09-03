@@ -52,5 +52,20 @@ $("#body-app").ready(function() {
 });
 
 $(".addProductCart").click(function() {
-	alert("Aicionar ao carrinho");
+	var produtoID = $(this).attr("id-product");
+
+	$.ajax({
+		url: "controller/add-product-cart.php",
+		type: "POST",
+		data: {produtoID: produtoID},
+		datatype: "json",
+		success: function(result) {
+			$("#iconCart").addClass("tremor");
+			setTimeout(function(){ $("#iconCart").removeClass("tremor"); }, 1500);
+			console.log(result);
+		},
+		error: function(xhr, status, error) {
+			console.log(error);
+		}
+	});
 });

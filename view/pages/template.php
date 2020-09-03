@@ -70,7 +70,7 @@
 		</div>
 		<div>
 			<a class="iconeMenu cart" title="Cart" href="cart">
-				<i class="material-icons">shopping_cart</i>
+				<i class="material-icons" id="iconCart">shopping_cart</i>
 			</a>
 		</div>
 		<div>
