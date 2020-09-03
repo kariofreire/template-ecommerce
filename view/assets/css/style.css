@@ -1,0 +1,206 @@
+@media only screen and (min-width: 1000px) {
+	.card-produto {
+		width: 100%;
+		border: 1px solid transparent;
+		border-radius: 10px;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+	}
+
+	.owl-carousel .owl-item img {
+		display: block;
+		width: 100%;
+	}
+}
+
+.header-app, .header-app a {
+	background-color: #0A8D5E;
+	color: white !important;
+	border-bottom-right-radius: 35px;
+	border-bottom-left-radius: 35px;
+}
+
+.navIcon {
+	font-size: 36px;
+}
+
+.header-conteudo {
+	padding: 20px;
+}
+
+.profile {
+	width: 50px;
+}
+
+.texto-left {
+	margin-left: 20px;
+	text-align: left;
+}
+
+.texto-right {
+	margin-right: 20px;
+	text-align: right;
+}
+
+.header-search {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto;
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.form-search {
+	margin-bottom: -25px;
+	outline: none;
+	padding-left: 50px;
+	padding-right: 20px;
+	float: center;
+	height: 50px;
+	width: 100%;
+	border: 0 solid transparent;
+	border-radius: 20px;
+	margin-top: 20px;
+	background-image: url('../images/search.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-origin: content-box;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+}
+
+/* Body APP */
+.body-app {
+	margin-top: 75px;
+}
+
+.section-title {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-bottom: 10px;
+}
+
+.button-app {
+	outline: none;
+	min-width: 30px;
+	min-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid;
+	border-radius: 20px;
+}
+
+.button-success {
+	background-color: #0A8D5F;
+	color: white;
+}
+
+
+/* Card Produtos */
+.card-produto {
+	border: 1px solid transparent;
+	max-height: 100%;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+}
+
+.card-produto img {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.produtos-recomendados .item {
+	padding: 10px;
+	padding-bottom: 30px;
+}
+
+.produtos-destaques .item {
+	padding: 15px;
+	padding-bottom: 30px;
+}
+
+/* Footer App */
+.footer-app {
+	position: fixed;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+	background-color: white;
+	height: 50px;
+	bottom: 0;
+	z-index: 999;
+	box-shadow: 30px 30px 30px 30px rgba(0,0,0,0.10), 30px 30px 30px 30px rgba(0,0,0,0.10);
+}
+
+.footer-app div {
+	margin-top: 15px;
+	color: #AAAFAC;
+}
+
+.iconeMenu {
+	text-decoration: none !important;
+	color: #AAAFAC;
+}
+
+.iconeMenu:hover {
+	text-decoration: none !important;
+	color: #0A8D5E;
+}
+
+.active-icon i {
+	color: #0A8D5E;
+}
+
+/* Style Scrool Bar */
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+	background: #0A8D5E; 
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #056342; 
+}
+
+/* Nav App Left Vertical */
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 80;
+	top: 0;
+	left: 0;
+	background-color: #08774E;
+	overflow-x: hidden;
+	transition: 0.6s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	display: block;
+	transition: 0.5s;
+}
+
+.sidenav a:hover {
+	color: #AAAFAC;
+}
+
+.openNavVertical {
+	cursor: pointer;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
