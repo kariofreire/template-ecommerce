@@ -20,7 +20,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">RUSSIA</p>
+					<p class="card-text">
+						<div class="float-left">RUSSIA</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -35,7 +42,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">RUSSIA</p>
+					<p class="card-text">
+						<div class="float-left">RUSSIA</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -50,7 +64,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">LONDON</p>
+					<p class="card-text">
+						<div class="float-left">LONDON</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -65,7 +86,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">LONDON</p>
+					<p class="card-text">
+						<div class="float-left">LONDON</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -80,7 +108,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">LONDON</p>
+					<p class="card-text">
+						<div class="float-left">LONDON</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -95,7 +130,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">LONDON</p>
+					<p class="card-text">
+						<div class="float-left">LONDON</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -110,7 +152,14 @@
 						<div class="float-right">R$ 00.00</div>
 					</div>
 					<br>
-					<p class="card-text">LONDON</p>
+					<p class="card-text">
+						<div class="float-left">LONDON</div>
+						<div class="float-right">
+							<button class="button-app button-circle rounded-circle button-success addProductCart">
+								<i class="fas fa-heart"></i>
+							</button>
+						</div>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -138,7 +187,14 @@
 							<div class="float-right">R$ 00.00</div>
 						</div>
 						<br>
-						<p class="card-text">RUSSIA</p>
+						<p class="card-text">
+							<div class="float-left">RUSSIA</div>
+							<div class="float-right">
+								<button class="button-app button-circle rounded-circle button-success addProductCart">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -153,7 +209,14 @@
 							<div class="float-right">R$ 00.00</div>
 						</div>
 						<br>
-						<p class="card-text">RUSSIA</p>
+						<p class="card-text">
+							<div class="float-left">RUSSIA</div>
+							<div class="float-right">
+								<button class="button-app button-circle rounded-circle button-success addProductCart">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -168,7 +231,14 @@
 							<div class="float-right">R$ 00.00</div>
 						</div>
 						<br>
-						<p class="card-text">LONDON</p>
+						<p class="card-text">
+							<div class="float-left">RUSSIA</div>
+							<div class="float-right">
+								<button class="button-app button-circle rounded-circle button-success addProductCart">
+									<i class="fas fa-heart"></i>
+								</button>
+							</div>
+						</p>
 					</div>
 				</div>
 			</div>

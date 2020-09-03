@@ -46,7 +46,11 @@ $(".closeNavVertical").click(function() {
 	$(".sidenav").width("0");
 });
 
- $("#body-app").ready(function() {
+$("#body-app").ready(function() {
 	var namePage = $("#body-app").attr("name-page");
 	$("."+namePage).addClass("active-icon");
+});
+
+$(".addProductCart").click(function() {
+	alert("Aicionar ao carrinho");
 });

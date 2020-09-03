@@ -14,6 +14,7 @@
     <meta name="msapplication-navbutton-color" content="#000000">
 	<link rel="shortcut icon" type="image/x-icon" href="<?= $project_index; ?>/view/assets/images/icon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 	<link rel="stylesheet" type="text/css" href="<?= $project_index; ?>/view/assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?= $project_index; ?>/view/assets/css/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="<?= $project_index; ?>/view/assets/css/style.css">
