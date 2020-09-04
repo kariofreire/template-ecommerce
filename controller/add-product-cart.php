@@ -9,8 +9,20 @@
 	# Verifica se existe session Cart
 	$statusSession = isset($_SESSION["cart"]) ? "true" : "false";
 
-	# Adiciona o produto no carrinho (Retorna quantidade de produtos)
-	echo add_cart($_POST["produtoID"], $statusSession);
+	# Define o ID do Produto
+	$idProduct = $_POST["produtoID"];
+
+	# Verifica se o produto está no cart
+	$statusProduct = verifyProductInCart($idProduct, $statusSession);
+
+	# Se não estiver no carrinho adiciona no carrinho
+	if ($statusProduct == "false") {
+		# Adiciona o produto no carrinho (Retorna quantidade de produtos)
+		echo add_cart($idProduct, $statusSession);
+	}else {
+		# Retorna a Quantidade de Produtos no Cart
+		echo qntProdCart();
+	}
 
 	# Zera carrinho
 	#zeraCarrinho();

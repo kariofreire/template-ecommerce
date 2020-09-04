@@ -3,6 +3,15 @@
 	ini_set("display_errors", 1);
 	error_reporting(E_ALL | E_PARSE | E_WARNING);
 
+	/* Função para verificar se o produto está Adicionado ao cart */
+	function verifyProductInCart($idProduct, $statusSession) {
+		if ($statusSession == "true") {
+			return in_array($idProduct, $_SESSION["cart"]) ? "true" : "false";
+		}else {
+			return "false";
+		}
+	}
+
 	/* Função para zerar carrinho */
 	function zeraCarrinho() {
 		unset($_SESSION["cart"]);
