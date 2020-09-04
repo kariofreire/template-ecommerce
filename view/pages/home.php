@@ -1,3 +1,13 @@
+<?php
+
+	# Inclui Banco de Produtos
+	require("controller/banco-de-produtos.php");
+
+	# Define os Produtos
+	$dataProdutosRecomended = productRecomended();
+	$dataProdutosFeatured = productFeatured();
+
+?>
 <div class="body-app">
 	<div class="section-title">
 		<div class="texto-left">
@@ -9,21 +19,22 @@
 	</div>
 
 	<div class="owl-carousel owl-theme produtos-recomendados">
+		<?php for ($i = 0; $i < $dataProdutosRecomended["quantidades"]; $i++) { ?>
 		<div class="item">
 			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_01.jpg">
+				<img class="card-img-top" alt="Planta" src="view/assets/images/<?= $dataProdutosRecomended['imagens'][$i]; ?>">
 				<div class="card-body">
 					<div class="card-title">
 						<div class="float-left">
-							<strong>SAM</strong>
+							<strong><?= $dataProdutosRecomended['nomes'][$i]; ?></strong>
 						</div>
-						<div class="float-right">R$ 00.00</div>
+						<div class="float-right">R$ <?= $dataProdutosRecomended['precos'][$i]; ?></div>
 					</div>
 					<br>
 					<p class="card-text">
-						<div class="float-left">RUSSIA</div>
+						<div class="float-left"><?= $dataProdutosRecomended['pais'][$i]; ?></div>
 						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="1">
+							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="<?= $i; ?>">
 								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
@@ -31,138 +42,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_02.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>THAY</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">RUSSIA</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="2">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_04.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>NAT</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">LONDON</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="3">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_05.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>NAT</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">LONDON</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="4">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_06.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>NAT</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">LONDON</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="5">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_01.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>NAT</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">LONDON</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="6">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="item">
-			<div class="card card-produto">
-				<img class="card-img-top" alt="Planta" src="view/assets/images/planta_02.jpg">
-				<div class="card-body">
-					<div class="card-title">
-						<div class="float-left">
-							<strong>NAT</strong>
-						</div>
-						<div class="float-right">R$ 00.00</div>
-					</div>
-					<br>
-					<p class="card-text">
-						<div class="float-left">LONDON</div>
-						<div class="float-right">
-							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="7">
-								<i class="fas fa-shopping-cart"></i>
-							</button>
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
+		<?php }# Fecha o Foreach ?>
 	</div>
 
 	<div class="section-title">
@@ -176,21 +56,22 @@
 
 	<div class="section-card-produtos">
 		<div class="owl-carousel owl-theme produtos-destaques">
+			<?php for ($i = 0; $i < $dataProdutosFeatured["quantidades"]; $i++) { ?>
 			<div class="item">
 				<div class="card card-produto">
-					<img class="card-img-top" alt="Planta" src="view/assets/images/planta_01.jpg">
+					<img class="card-img-top" alt="Planta" src="view/assets/images/<?= $dataProdutosFeatured['imagens'][$i]; ?>">
 					<div class="card-body">
 						<div class="card-title">
 							<div class="float-left">
-								<strong>SAM</strong>
+								<strong><?= $dataProdutosFeatured['nomes'][$i]; ?></strong>
 							</div>
-							<div class="float-right">R$ 00.00</div>
+							<div class="float-right">R$ <?= $dataProdutosFeatured['precos'][$i]; ?></div>
 						</div>
 						<br>
 						<p class="card-text">
-							<div class="float-left">RUSSIA</div>
+							<div class="float-left"><?= $dataProdutosFeatured['pais'][$i]; ?></div>
 							<div class="float-right">
-								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="8">
+								<button class="button-app button-circle rounded-circle button-success" id-product="<?= $i; ?>">
 									<i class="fas fa-shopping-cart"></i>
 								</button>
 							</div>
@@ -198,50 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="item">
-				<div class="card card-produto">
-					<img class="card-img-top" alt="Planta" src="view/assets/images/planta_02.jpg">
-					<div class="card-body">
-						<div class="card-title">
-							<div class="float-left">
-								<strong>THAY</strong>
-							</div>
-							<div class="float-right">R$ 00.00</div>
-						</div>
-						<br>
-						<p class="card-text">
-							<div class="float-left">RUSSIA</div>
-							<div class="float-right">
-								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="9">
-									<i class="fas fa-shopping-cart"></i>
-								</button>
-							</div>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="card card-produto">
-					<img class="card-img-top" alt="Planta" src="view/assets/images/planta_04.jpg">
-					<div class="card-body">
-						<div class="card-title">
-							<div class="float-left">
-								<strong>NAT</strong>
-							</div>
-							<div class="float-right">R$ 00.00</div>
-						</div>
-						<br>
-						<p class="card-text">
-							<div class="float-left">RUSSIA</div>
-							<div class="float-right">
-								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="10">
-									<i class="fas fa-shopping-cart"></i>
-								</button>
-							</div>
-						</p>
-					</div>
-				</div>
-			</div>
+			<?php }# Fecha o Foreach ?>
 		</div>
 	</div>
 </div>
