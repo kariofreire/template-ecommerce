@@ -60,6 +60,7 @@ $(".addProductCart").click(function() {
 		data: {produtoID: produtoID},
 		datatype: "json",
 		success: function(result) {
+			$("#qntProdCart").html(result);
 			$("#iconCart").addClass("tremor");
 			setTimeout(function(){ $("#iconCart").removeClass("tremor"); }, 1500);
 			console.log(result);

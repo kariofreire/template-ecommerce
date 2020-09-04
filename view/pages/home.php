@@ -24,7 +24,7 @@
 						<div class="float-left">RUSSIA</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="1">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -46,7 +46,7 @@
 						<div class="float-left">RUSSIA</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="2">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -68,7 +68,7 @@
 						<div class="float-left">LONDON</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="3">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -90,7 +90,7 @@
 						<div class="float-left">LONDON</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="4">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -112,7 +112,7 @@
 						<div class="float-left">LONDON</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="5">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -134,7 +134,7 @@
 						<div class="float-left">LONDON</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="6">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -156,7 +156,7 @@
 						<div class="float-left">LONDON</div>
 						<div class="float-right">
 							<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="7">
-								<i class="fas fa-heart"></i>
+								<i class="fas fa-shopping-cart"></i>
 							</button>
 						</div>
 					</p>
@@ -191,7 +191,7 @@
 							<div class="float-left">RUSSIA</div>
 							<div class="float-right">
 								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="8">
-									<i class="fas fa-heart"></i>
+									<i class="fas fa-shopping-cart"></i>
 								</button>
 							</div>
 						</p>
@@ -213,7 +213,7 @@
 							<div class="float-left">RUSSIA</div>
 							<div class="float-right">
 								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="9">
-									<i class="fas fa-heart"></i>
+									<i class="fas fa-shopping-cart"></i>
 								</button>
 							</div>
 						</p>
@@ -235,7 +235,7 @@
 							<div class="float-left">RUSSIA</div>
 							<div class="float-right">
 								<button class="button-app button-circle rounded-circle button-success addProductCart" id-product="10">
-									<i class="fas fa-heart"></i>
+									<i class="fas fa-shopping-cart"></i>
 								</button>
 							</div>
 						</p>

@@ -3,13 +3,18 @@
 	ini_set("display_errors", 1);
 	error_reporting(E_ALL | E_PARSE | E_WARNING);
 
+	/* Função para zerar carrinho */
 	function zeraCarrinho() {
 		unset($_SESSION["cart"]);
 	}
 
-	function add_cart($id_product, $statusSession) {
-		/* Função para adicionar produto no carrinho */
+	/* Função para verificar quantos produtos existe no carrinho */
+	function qntProdCart() {
+		return isset($_SESSION["cart"]) ? count($_SESSION["cart"]) : "0";
+	}
 
+	/* Função para adicionar produto no carrinho */
+	function add_cart($id_product, $statusSession) {
 		// Verifica se existe produtos no carrinho
 		if ($statusSession == "false") {
 			// Armazena o primeiro produto no carrinho

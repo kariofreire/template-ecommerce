@@ -281,3 +281,21 @@ button {
 	-webkit-animation-iteration-count: 1;
 	animation-iteration-count: 1;
 }
+
+.button-app-xs {
+	width: 10px;
+}
+
+.button-app-cart {
+	padding-right: 2px;
+	padding-left: 2px;
+	background-color: #0A8D5F;
+	color: white;
+	border: none;
+	min-width: 15px !important;
+	min-height: 15px !important;
+	font-size: 10px;
+	float: center;
+	position: fixed;
+	bottom: 15px;
+}

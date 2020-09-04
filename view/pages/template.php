@@ -71,6 +71,9 @@
 		<div>
 			<a class="iconeMenu cart" title="Cart" href="cart">
 				<i class="material-icons" id="iconCart">shopping_cart</i>
+				<button id="qntProdCart" class="button-app button-app-cart button-circle rounded-circle">
+					<?= qntProdCart(); ?>
+				</button>
 			</a>
 		</div>
 		<div>
